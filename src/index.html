@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+<script src="./js/whj.js"></script>
+<script>
+  // loader就是项目中的一个爬虫。
+  // webpack就是一个js爬虫。
+
+  // ❗️webpack原生就是一个根据各种模块化规范将依赖图中的js文件进行readFile, 然后在写出到唯一一个js文件中。
+  // PS: 至于读完以后是怎样处理成写出文件的，这个应该是webpack很牛逼的逻辑了。
+
+  // console.log(name)
+  // 1. 致全局js变量污染 - 模块化
+  // 2. js文件过多 - 打包
+  // 3. css文件过多 - 打包到一个script中
+  //   - 用readFile读取所有的.css文件，将其内容累加，最终写出到html页面的style标签中。
+  // 4. less开发更安全。
+  // 5.兼容性问题。先手动执行babel/postcss
+  // 6.热加载
+  // 7.文件自动拷贝
+  // 8
+</script>
+</body>
+</html>
