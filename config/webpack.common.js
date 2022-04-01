@@ -8,15 +8,16 @@ const TerserPlugin = require('terser-webpack-plugin')
 const webpack = require('webpack')
 const AddAssetHtmlPlugin = require('add-asset-html-webpack-plugin')
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
+
 const base = (isProd) => ({
-  // entry: './src/index.js', // 相对于当前运行的命令行路径
+  // entry: './src/index.ts', // 相对于当前运行的命令行路径
   // entry: {
   //   main1: {import: './src/main1.js', dependOn: 'xxx'},
   //   main2: {import: './src/main2.js', dependOn: 'xxx'},
   //   xxx: ['lodash', 'jquery']
   // },
   entry: {
-    index: "./src/index.js"
+    index: "./src/index.ts"
   },
 
   output: {

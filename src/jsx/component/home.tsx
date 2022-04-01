@@ -1,3 +1,3 @@
 import React from 'react'
-const Home = ()=> <h1>hom1</h1>
+const Home = ()=> <h1>1</h1>
 export default Home

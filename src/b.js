@@ -1,7 +1,7 @@
 import './css/c.less'
 import './public/font/iconfont.css'
 
-console.log(2099909)
+console.log(99)
 export const renderB = ()=>{
   const dom = document.createElement('h1');
   const dom1 = document.createElement('h2');
@@ -16,5 +16,5 @@ export const renderB = ()=>{
   span.style.color="black"
   document.body.appendChild(span)
 
-  console.log(90)
+  console.log(990)
 }

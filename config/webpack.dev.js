@@ -1,4 +1,5 @@
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin')
+const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -21,6 +22,7 @@ module.exports = {
     }
   },
   plugins: [
-    new ReactRefreshWebpackPlugin()
+    new ReactRefreshWebpackPlugin(),
+    new ForkTsCheckerWebpackPlugin()
   ]
 }
